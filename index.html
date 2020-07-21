@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   
+</head>
+<body>
+
+    <!--chatbot begining-->
+    <div class="chat-bot">
+		<div class="chat-body">
+		   <div class="chat-header">
+		       <a class="chat-bot-name"><i class="fas fa-user-alt" style="margin:8px; color: #dc3545;"></i>Anita</a>
+		       <a class="menu">...</a>
+		       <i class="fa fa-close"></i>
+		       <div class="chat-bot-status">Online</div>
+		   </div>
+		   <div class="menu-content">
+		        <li class="menu-item talk-with-human"><a>Chat with a human</a></li>
+		        <li class="menu-item end-chat"><a>End this chat session</a></li>
+		        <li class="menu-item give-call"><a>Give us a call</a></li>
+		        <li class="customer-care-num"><a>09023456789</a></li>
+		        
+		   </div>
+		   <div class="message-body">
+		        <div class="message-holder">
+		        </div>
+		        <!--emoji container-->
+		        <div class="emoji-container" id="myemoji-container">
+		              <div class="emoji-header">
+		                  <a class="emoji-name">Emoji</a>
+		                  <i class="fa fa-close"></i>
+		             </div>
+		             <div class="emoji-body"></div>
+		        </div>
+		        <!--input field -->
+		        <div class="input-body">
+		             <i class="far fa-smile input-emoji"></i>
+		             <input class="enter-message" placeholder="Type a message" name="user_message">
+		             <div class="send-key"><i class="material-icons">&#xe163;</i></div>
+		        </div>
+		   </div>
+		</div>
+     	
+		<div class="chat_icon_tooltip">Would You Like To Chat?</div>
+		<div class="chat-bot-icon"><a><i class="far fa-comment-dots"></i></a></div>
+		<div class="chat-bot-icon-close" title="Close chat"><a><i class="fa fa-close"></i></a></div>	
+
+
+	</div>
+    <!-- ending of chatbot -->
+
+   
+   	<script src="js/jquery.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+</html>
